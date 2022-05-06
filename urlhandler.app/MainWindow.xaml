@@ -1,0 +1,18 @@
+﻿<Window x:Class="urlhandler.app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:urlhandler.app"
+        mc:Ignorable="d"
+        Title="Chemotion URL Handler" Height="382" Width="503">
+    <Grid Margin="5,0,10,15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="113*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="txtInfo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Downloading..." VerticalAlignment="Top" Height="250" Width="449" IsEnabled="False" Margin="22,31,0,0" FontSize="16"/>
+        <Button x:Name="btnClose" Content="Close" Height="30" Width="103" IsEnabled="False" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="btnClose_Click" Grid.RowSpan="2"/>
+        <Button x:Name="btnStart" Content="Start" Height="30" Width="103" IsEnabled="True" VerticalAlignment="Bottom" HorizontalAlignment="Right" Grid.RowSpan="2" Margin="0,0,132,0" Click="btnStart_Click"/>
+    </Grid>
+</Window>

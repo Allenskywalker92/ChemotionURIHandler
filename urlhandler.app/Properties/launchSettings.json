@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "urlhandler.app": {
+      "commandName": "Project",
+      "commandLineArgs": "chemotion://http://localhost:3000/api/v1/public/download?token=eyJhbGciOiJIUzI1NiJ9.eyJhdHRfaWQiOjI2LCJ1c2VyX2lkIjo0LCJleHAiOjE2NTI4MzAwODF9.v-8fqYRHW9GLHYXbpfK3Am7N2tBTZtip_oSKLSxNMG0"
+    }
+  }
+}
