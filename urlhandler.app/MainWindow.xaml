@@ -11,7 +11,7 @@
             <RowDefinition Height="113*"/>
             <RowDefinition Height="4*"/>
         </Grid.RowDefinitions>
-        <TextBlock x:Name="txtInfo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Downloading..." VerticalAlignment="Top" Height="250" Width="449" IsEnabled="False" Margin="22,31,0,0" FontSize="16"/>
+        <TextBlock x:Name="txtInfo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Press Start button to start editing attachment." VerticalAlignment="Top" Height="250" Width="449" IsEnabled="False" Margin="22,31,0,0" FontSize="16"/>
         <Button x:Name="btnClose" Content="Close" Height="30" Width="103" IsEnabled="False" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="btnClose_Click" Grid.RowSpan="2"/>
         <Button x:Name="btnStart" Content="Start" Height="30" Width="103" IsEnabled="True" VerticalAlignment="Bottom" HorizontalAlignment="Right" Grid.RowSpan="2" Margin="0,0,132,0" Click="btnStart_Click"/>
     </Grid>

@@ -76,6 +76,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -282,7 +290,7 @@
                                                     "Condition" = "8:"
                                                     "Transitive" = "11:TRUE"
                                                     "ValueTypes" = "3:1"
-                                                    "Value" = "8:\"[TARGETDIR]urlhandler.app.exe\" \"%1\"\""
+                                                    "Value" = "8:\"[TARGETDIR]urlhandler.app.exe\" \"%1\""
                                                     }
                                                 }
                                             }
@@ -307,15 +315,7 @@
                             "ValueTypes" = "3:1"
                             "Value" = "8:URL:Chemotion Protocol"
                             }
-                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_35D55DD6C11443D6A072C17AC082B92F"
-                            {
-                            "Name" = "8:DefaultIcon"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "ValueTypes" = "3:1"
-                            "Value" = "8:\"C:\\Windows\\explorer.exe\",1"
-                            }
-                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_54219D942F7E44489B82717307EA66E7"
+                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_68857BCE2E5E49C888EDD9157E446F27"
                             {
                             "Name" = "8:URL Protocol"
                             "Condition" = "8:"
